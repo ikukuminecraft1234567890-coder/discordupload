@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>test_video</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="video.other">
+    <meta property="og:title" content="test_video">
+    <meta property="og:description" content="Discord動画共有くんを介して共有された動画です。">
+    <meta property="og:video" content="https://litter.catbox.moe/yg130b.mp4">
+    <meta property="og:video:secure_url" content="https://litter.catbox.moe/yg130b.mp4">
+    <meta property="og:video:type" content="video/mp4">
+    <meta property="og:video:width" content="1280">
+    <meta property="og:video:height" content="720">
+    <meta property="og:image" content="https://litter.catbox.moe/mjkd8x.jpg">
+    <meta property="og:image:secure_url" content="https://litter.catbox.moe/mjkd8x.jpg">
+    <meta name="twitter:card" content="player">
+    <meta name="twitter:player" content="https://litter.catbox.moe/yg130b.mp4">
+    <meta name="twitter:player:width" content="1280">
+    <meta name="twitter:player:height" content="720">
+    <style>
+        body {
+            margin: 0;
+            background-color: #0b0e14;
+            color: #e2e8f0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .player-container {
+            width: 90%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.02);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+        }
+        video {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            outline: none;
+        }
+        h1 {
+            font-size: 1.4rem;
+            margin: 15px 0 5px 0;
+            background: linear-gradient(135deg, #a78bfa, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            color: #64748b;
+            font-size: 0.9rem;
+            margin: 5px 0 0 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="player-container">
+        <video src="https://litter.catbox.moe/yg130b.mp4" controls autoplay playsinline></video>
+        <h1>test_video</h1>
+        <p>Discord動画共有くん</p>
+    </div>
+</body>
+</html>
